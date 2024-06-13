@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -20,14 +21,18 @@
       <form>
         <label class="TextoTopo" for="Procurar">Como você está se sentindo? Pesquise o seu sintoma e descubra plantas e
           iguarias que podem te ajudar a se sentir melhor.</label><br><br>
-        <input placeholder="Gripe/Tosse/Resfriado..." class="BarraDeProcura" type="search" id="searchbar"
-          name="searchbar" onkeyup="search()"><br>
+        <input  placeholder="Gripe/Tosse/Resfriado..." class="BarraDeProcura" autocomplete="off" type="search" id="searchbar"
+          name="searchbar" onkeyup="search()">
         <ul>
-          <label class="fonte" for="Menta">Gripe</label>
-          <li  class="procura"><img src="Menta.png" class="Menta">A menta</li>
-
-
-
+          <li>
+            <p class="procura">Gripe</p>
+            <p class="procura">Tosse</p>
+            <p class="procura">Resfriado</p>
+            <p class="procura">Dor de garganta</p>
+            <p class="procura">Fraqueza</p>
+            <p class="procura">Dor no corpo</p>
+            <p class="procura">Alergia</p>
+          </li>
         </ul>
       </form>
     </ul>
