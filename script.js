@@ -10,18 +10,3 @@ function search() {
     }
   }
 }
-if(input === ''){
-  for(i = 0; i < x.lenght; i++) {
-    x[i].style.display="none"
-  }
-}
-else{
-  for (i = 0; i < x.lenght; i++){
-    if (!x[i].innerHTML.toLowerCase().includes(input)){
-      
-    }
-    else{
-      x[i].style.display="list-item";
-    }
-  }
-}
