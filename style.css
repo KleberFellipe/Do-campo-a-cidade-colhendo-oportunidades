@@ -49,9 +49,10 @@ li {
 }
 .procura{
   display: none;
-  border: 1px solid black;
+  border: 3px solid darkgreen;
   width: 500px;
+  background:
 }
 .Menta{
-  border: 1px solid black;
+  border: 2px solid black;
 }
