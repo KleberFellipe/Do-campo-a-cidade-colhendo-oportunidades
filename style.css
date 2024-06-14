@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+  background: linear-gradient(greenyellow, white,greenyellow)
 }
 
 div {
@@ -51,8 +52,12 @@ li {
   display: none;
   border: 3px solid darkgreen;
   width: 500px;
-  background:
+  background: linear-gradient( green,white,green)
 }
 .Menta{
   border: 2px solid black;
+}
+.procura:hover{
+    transform: scale(1.05);
+  transition: 1s;
 }
